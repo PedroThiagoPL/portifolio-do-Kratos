@@ -1,0 +1,48 @@
+@media(max-width: 992px){
+    .navbar {
+        display: flex;
+        flex-direction: column;   
+              
+    }
+    
+    .menu {
+        flex-direction: column;                           
+        background-color: black;   
+        width: 185px;
+        height: 280px;
+        gap: 1.2em;         
+        padding-top: 20px;  
+        justify-content: center;   
+        position: fixed;     
+        right: -100%;   
+        top: 70px;
+        text-align: center;   
+        transition: 0.3s;                  
+    }
+
+    .menu.active {
+        right: 0;
+    }
+
+    ul{
+        display: flex;
+        flex-direction: column;        
+    }    
+
+    .btn-hamburguer {
+        display: flex;
+        flex-direction: column;   
+    } 
+
+    .btn-hamburguer.active .hamburguer:nth-child(2){
+        opacity: 0;
+    }
+    
+    .btn-hamburguer.active .hamburguer:nth-child(1){
+        transform: translateY(14px) rotate(45deg);
+    }
+    
+    .btn-hamburguer.active .hamburguer:nth-child(3){
+        transform: translateY(-14px) rotate(-45deg);
+    }
+}
