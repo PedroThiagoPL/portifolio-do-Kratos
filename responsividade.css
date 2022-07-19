@@ -1,8 +1,28 @@
+@media(max-width: 1042px) {
+    .sobre {
+        display: flex;
+        flex-direction: column;    
+        padding-top: 120px;    
+    }
+
+    .kratos-sobre{
+        display: flex;        
+        justify-content: center;
+    }
+
+    .kratos-sobre img {
+        height: 500px;
+    }
+
+    .sobre-mim p {
+        padding-top: 50px;
+    }
+}
+
 @media(max-width: 992px){
     .navbar {
         display: flex;
-        flex-direction: column;   
-              
+        flex-direction: column;                 
     }
     
     .menu {
@@ -15,7 +35,7 @@
         justify-content: center;   
         position: fixed;     
         right: -100%;   
-        top: 70px;
+        top: 20px;
         text-align: center;   
         transition: 0.3s;                  
     }
@@ -44,5 +64,55 @@
     
     .btn-hamburguer.active .hamburguer:nth-child(3){
         transform: translateY(-14px) rotate(-45deg);
+    }
+
+    .img {
+        height: 80vh;
+        padding-top: 50px;
+    }
+}
+
+@media(max-width: 768px) {
+    .img {
+        height: 60vh;
+    }
+
+    .kratos-sobre img {
+        height: 50vh;
+        width: 500px;
+    }
+
+    .sobre-mim {
+        padding-left: 10px;
+    }
+
+    .exp {
+        width: 300px;
+    }
+
+    .exp img {
+        width: 300px;
+        height: 200px;
+    }
+
+    .icon-contact i {
+        padding: 4px;
+    }
+}
+
+@media(max-width: 481px) {
+    .navbar {
+        margin-right: 0;
+    }
+    
+    .img {
+        height: 40vh;
+        padding-left: 5%;
+    }
+
+    .kratos-sobre img {
+        height: 40vh;
+        width: 400px;
+        padding-left: 10%;
     }
 }

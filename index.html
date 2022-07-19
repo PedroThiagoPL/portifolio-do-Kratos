@@ -6,19 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsividade.css">
-    <title>Portifólio do Kratos</title>
+    <script src="https://kit.fontawesome.com/dd4f8f3173.js" crossorigin="anonymous"></script>
+    <title>NavBar</title>
 </head>
 <body>    
     <header>
         <div class="container-hamburguer">
-            <img src="img/logo.png" alt="">
+            <img src="img/logo.png" alt="kratos-home">
             <div class="navbar">                  
                 <ul id="menu" class="menu">             
                     <li><a href="#home">Home</a></li>
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Experiência</a></li>
-                    <li><a href="#">Projetos</a></li>
-                    <li><a href="#">Contatos</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#experiencia">Experiência</a></li>                    
+                    <li><a href="#contatos">Contatos</a></li>
                 </ul> 
                  <div id="btn-hamburguer" class="btn-hamburguer">
                     <div class="hamburguer"></div>
@@ -28,14 +28,68 @@
             </div>
         </div>
     </header>
-
     <main>
+
         <section id="home">
             <img class="img" src="img/background.jpg" alt="">
-        </section>  
-    </main>  
-    
-    
+        </section>
+        
+        <section id="sobre" class="sobre">
+            <div class="kratos-sobre">
+                <img src="img/kratos-sobre.png" alt="kratos-sobre">
+            </div>
+
+            <div class="sobre-mim">
+                <h2>Sobre mim</h2>
+                <p>Meu nome é Kratos, sou filho de Zeus com Callisto, uma mulher mortal, e nasci em Esparta. Durante a companha contra uma horda de bárbaros, eu estava encurralado e prestes a ser morto. Então, pedi ajuda a Ares, que me transformou em seu servo. Ao atacar uma vila, matei por engano minha esposa e filha, colocadas lá como estratégia de Ares para acabar com minha ligação com o mundo. Mais tarde, me vinguei da morte da minha família matando Ares e me tornei o deus da guerra.</p>
+            </div>   
+        </section>
+
+        <section id="experiencia" >  
+            
+            <h2 class="title-exp">Experiências</h2>
+
+            <div class="cards">
+                
+                <div class="exp">
+                    <img src="img/caixa-da-pandora.jpg" alt="">
+                    <h2>Caixa da Pandora</h2>
+                    <h3>1250 A.C</h3>
+                    <p>Após dez anos a serviço dos deuses do Olimpo, fui encarregado por Atena de encontrar a Caixa de Pandora; a chave para derrotar Ares, o deus da guerra, que está destruindo a cidade de Atenas. Eu, eventualmente, encontro a Caixa de Pandora, e depois de finalmente matar Ares, ascendi ao Monte Olimpo para se tornar o novo deus da guerra.</p>
+                </div>      
+                                
+                <div class="exp">
+                    <img src="img/chains-of-olympus.jpeg" alt="">
+                    <h2>Chains Of Olympus</h2>
+                    <h3>1220 A.C</h3>
+                    <p>Durante algum momento entre os dez anos de serviço aos deuses do Olimpo. Interrompi uma invasão persa da cidade grega de Ática, e descobri que o mundo foi mergulhado na escuridão pelo deus Morfeu. Investiguei o sequestro do deus do sol Hélio e impedi que o plano maquiavélico da deusa Perséfone e do Titã Atlas para destruir o mundo.</p>
+                </div>
+
+                <div class="exp">
+                    <img src="img/titanomaquia.jpg" alt="">
+                    <h2>Titanomaquia</h2>
+                    <h3>1170 A.C</h3>
+                    <p>Fui abandonado pelos Titãs, que estavam me usando apenas para exigir sua própria vingança. Ajudado pelo espírito de Atena, que foi elevada a um novo nível de entendimento, ela me instruiu a procurar a Chama do Olimpo para derrotar Zeus. Envolvi os deuses e os Titãs em uma série épica de batalhas através do submundo e do Olimpo e descobri que a Caixa de Pandora está dentro da Chama. Descobri que a própria Pandora é a chave para pacificar a Chama e permitir que ele abra a Caixa. Depois que finalmente matei Zeus, recusei a ajudar Atena a assumir o papel de novo patrono da humanidade.</p>
+                </div>            
+            
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer id="contatos">
+        <h2>Contatos</h2>
+        <div class="icon-contact">
+            <i class="fa-brands fa-whatsapp"></i>
+            <i class="fa-solid fa-envelope"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-instagram"></i>
+        </div>
+        <p>&copy; 2022 Copyright - Pedro Thiago</p>
+    </footer>
+
     <script src="script.js"></script>
 </body>
 </html>

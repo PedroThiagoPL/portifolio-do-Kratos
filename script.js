@@ -10,4 +10,3 @@ const hamburguer2 = () => {
 
 
 hamburguer.addEventListener('click', hamburguer2)
-
